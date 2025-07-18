@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería - Makochi Preescolar</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="logo">
+          <a href="index.html">
+            <img
+              src="images/logo.png"
+              alt="Logotipo de Makochi Preescolar"
+            />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="programas.html">Programas</a></li>
+            <li><a href="admisiones.html">Admisiones</a></li>
+            <li><a href="galeria.html" class="active">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="contact-header">
+          <span>Llámanos: +52 55 1234 5678</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Nuestra Galería</h1>
+        </div>
+      </section>
+
+      <section class="section-padding">
+        <div class="container">
+          <p class="text-center">
+            ¡Bienvenidos a nuestro viaje visual! Aquí hay un vistazo a las
+            experiencias alegres y enriquecedoras en Makochi Preescolar.
+            Nuestro entorno de grupo pequeño permite actividades únicas y
+            atractivas para cada niño.
+          </p>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="images/gallery1.jpg"
+                alt="Niños pintando durante la clase de arte"
+              />
+              <div class="caption">Tiempo de Arte Creativo</div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="images/gallery2.jpg"
+                alt="Niños jugando juntos en un tobogán al aire libre"
+              />
+              <div class="caption">Diversión al Aire Libre</div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="images/gallery3.jpg"
+                alt="Maestra leyendo un cuento a un pequeño grupo de niños"
+              />
+              <div class="caption">Magia de la Hora del Cuento</div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="images/gallery4.jpg"
+                alt="Niño explorando un recipiente sensorial con arena y juguetes"
+              />
+              <div class="caption">Descubrimiento Sensorial</div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="images/gallery5.jpg"
+                alt="Niños construyendo una torre con bloques"
+              />
+              <div class="caption">Construcción e Imaginación</div>
+            </div>
+            <div class="gallery-item">
+              <img
+                src="images/gallery6.jpg"
+                alt="Grupo de niños riendo durante la clase de música"
+              />
+              <div class="caption">Música y Movimiento</div>
+            </div>
+          </div>
+          <p class="text-center small-text mt-4">
+            <em
+              >Todas las fotos se publican con el consentimiento de los padres,
+              protegiendo la privacidad de nuestras pequeñas estrellas.</em
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-info">
+          <h4>Makochi Preescolar</h4>
+          <p>
+            Av. Siempre Viva #123, Colonia Centro, Ciudad de México, CP 06000
+          </p>
+          <p>Teléfono: +52 55 1234 5678</p>
+          <p>Correo: info@estrellitas.mx</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="programas.html">Programas</a></li>
+            <li><a href="admisiones.html">Admisiones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#" target="_blank"
+            ><img
+              src="https://via.placeholder.com/30/0000FF/FFFFFF?text=FB"
+              alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"
+            ><img
+              src="https://via.placeholder.com/30/FF0000/FFFFFF?text=IG"
+              alt="Instagram"
+          /></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container text-center">
+          <p>© 2025 Makochi Preescolar. Todos los Derechos Reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
